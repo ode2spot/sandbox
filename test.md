@@ -31,7 +31,7 @@ typedef struct __attribute__((packed)) {
 <br/>
 <br/>
 
-## Load Settings
+## DMM Settings
 <br/>
 
 ### Mode Select
@@ -40,8 +40,8 @@ typedef struct __attribute__((packed)) {
 MODE | VALUE | DESCRIPTION
 --- | --- | ---
 OFF | 0b00 | Off
-CC | 0b01 | Constant Current Mode
-CR | 0b10 | Constant Resistance Mode
-CV | 0b11 | Constant Voltage Mode
+VOLT | 0b01 | Measure Voltage
+CURR | 0b11 | Measure Current
+RES | 0b10 | Measure Resistance
 
 <br/>
