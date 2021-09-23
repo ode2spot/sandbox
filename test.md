@@ -22,7 +22,7 @@ typedef struct __attribute__((packed)) {
 
     uint8_t type;
     uint8_t len;
-	uint16_t data[12];
+    uint16_t data[12];
 
 } Frame_t;
 ```
